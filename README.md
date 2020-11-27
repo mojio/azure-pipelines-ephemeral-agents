@@ -1,3 +1,7 @@
+# Differences in this Fork
+
+So far, the only real difference is the addition of the dotnet core 3.1 SDK to the linux agent dockerfile.
+
 # Ephemeral Pipelines Agents
 
 When you want to deploy to Azure Resources that aren't exposed on the internet, and only accessible via a [private network](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview) you are excluded from using [Microsoft-hosted agents](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/hosted?view=azure-devops), and you need to maintain your pool of [self-hosted agents](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/agents?view=azure-devops#install).
