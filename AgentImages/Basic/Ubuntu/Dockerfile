@@ -18,7 +18,8 @@ RUN apt-get update \
         netcat \
         wget \ 
         apt-transport-https \ 
-        gnupg
+        gnupg \ 
+        openssh-client
 
 # this is needed because otherwise it can't find dotnetcore 3.1 later on.  taken from:
 #  https://docs.microsoft.com/en-us/dotnet/core/install/linux-package-manager-ubuntu-1604#troubleshoot-the-package-manager
